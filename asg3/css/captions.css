@@ -1,0 +1,76 @@
+/* css image captions adapted from hasinhayder.github.io */
+
+	.caption-style-2{
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		
+	}
+
+	.caption-style-2 li{
+		float: left;
+		padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}
+	.div .caption-text{
+		position: absolute;
+		
+	}
+
+	.caption-style-2 li:hover .caption{
+		display: block;
+		opacity: 5;
+		transform: translateY(-100px);
+		position:inherit;
+		-webkit-transform:translateY(-100px);
+		-moz-transform:translateY(-100px);
+		-ms-transform:translateY(-100px);
+		-o-transform:translateY(-100px);
+
+	}
+
+
+	.caption-style-2 img{
+		margin: 0px;
+		padding: 0px;
+		float: left;
+		z-index: 4;
+	}
+
+
+	.caption-style-2 .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 0;
+		top:225px;
+		-webkit-transition:all 0.15s ease-in-out;
+		-moz-transition:all 0.15s ease-in-out;
+		-o-transition:all 0.15s ease-in-out;
+		-ms-transition:all 0.15s ease-in-out;
+		transition:all 0.15s ease-in-out;
+
+	}
+	.caption-style-2 .blur{
+		background-color: rgb(91,192,222);
+		height: 225px;
+		width: 225px;
+		z-index: -5;
+		position: absolute;
+	}
+
+	.caption-style-2 .caption-text h1{
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+	.caption-style-2 .caption-text{
+		font-weight: bold;
+		padding-left: 20px;
+		font-size: 100%;
+		z-index: 100;
+		color: black ;
+		width:100px ;
+		height: 100px;
+		text-align:center; 
+		top:20px;
+	}
